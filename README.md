@@ -1,27 +1,5 @@
-Description :
-
-    -[ This tool generates several Payloads for Invasion of Systems and Websites.
-
-Future Implementation:
-
-    -[ Standby Mode for connection to Payloads.
-    -[ Obfuscation of some Payloads with Base64.
-
-Tested on :
-
-    -[ Parrot Security OS 4.11
-
-
-Installation :
-
-$ apt-get update -y
-$ apt-get install python git -y
-$ git clone https://github.com/N3utr0n-FHC/GenPayloads
-$ cd GenPayloads
-$ python3 GenPayloads.py
-
-
-			*							*
+```
+		*							*
   _____            _____            _                 _     *
  / ____|          |  __ \          | |               | |    
 | |  __  ___ _ __ | |__) |_ _ _   _| | ___   __ _  __| |___ 
@@ -37,15 +15,35 @@ $ python3 GenPayloads.py
  *    	--[ Team : FHC - FR13NDs Hackers Club
     	--[ Date : 04/04/2022
     	--[ Facebook : https://www.facebook.com/miraldino.paulo.7
+```
 
-			
-  ======= Generate Payloads =======
+### Description :
 
-	[1]. Bind Shell TCP
-	[2]. Reverse Shell TCP
-	[99]. Exit
+    This tool generates several Payloads for Invasion of Systems and Websites.
 
-  =================================
-		
-[genpayloads]:$ 
+### Future Implementation:
 
+    Standby Mode for connection to Payloads.
+    Obfuscation of some Payloads with Base64.
+
+<div align=center display=flex>
+    <img width=80% src="screenshots/img1.png" />
+    <img width=40% src="screenshots/img2.png" />
+    <img width=40% src="screenshots/img3.png" />
+</div>
+
+### Tested on :
+
+    Parrot Security OS 4.11
+    Manjaro 22.03
+
+
+### Installation :
+
+```
+$ apt-get update -y
+$ apt-get install python git -y
+$ git clone https://github.com/N3utr0n-FHC/GenPayloads
+$ cd GenPayloads
+$ python3 GenPayloads.py
+```
